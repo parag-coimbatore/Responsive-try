@@ -2,32 +2,73 @@ import React from 'react'
 
 function Services() {
     return (
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <>
+            <h1  className="text-styles text-center"><u>Services from Parag Coimbatore</u></h1>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col mx-3" style={{width: '23rem'}}> 
+                    <div className="card">
+                        <img src="/images/img-8.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h3 className="card-title text-center">Services1</h3>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="http://localhost:3000/service1" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col mx-3" style={{width: '23rem'}}>
+                    <div className="card">
+                        <img src="/images/img-8.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h3 className="card-title text-center">Services2</h3>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="http://localhost:3000/service2" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col mx-3" style={{width: '23rem'}}>
+                    <div className="card">
+                        <img src="/images/img-8.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h3 className="card-title text-center">Services3</h3>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <a href="http://localhost:3000/service3" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col mx-3" style={{width: '23rem'}}> 
+                    <div className="card">
+                        <img src="/images/img-8.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body text-center">
+                            <h3 className="card-title">Services4</h3>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="http://localhost:3000/service4" className="btn btn-primary">Go somewhere</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className="col mx-3" style={{width: '23rem'}}>
+                    <div className="card">
+                        <img src="/images/img-8.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body text-center">
+                            <h3 className="card-title">Services3</h3>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href="http://localhost:3000/service3" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col mx-3" style={{width: '23rem'}}>
+                    <div className="card">
+                        <img src="/images/img-8.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h3 className="card-title text-center">Services6</h3>
+                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <a href="http://localhost:3000/service6" className="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner" style={{maxWidth : '38rem', maxHeight: '76rem'}}>
-                <div class="carousel-item active" >
-                    <img src="/images/img-1.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/img-2.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/img-3.jpg" class="d-block w-100" alt="..." />
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </>
     )
 }
 

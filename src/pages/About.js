@@ -3,7 +3,8 @@ import React from 'react'
 function About() {
     return (
         <>
-            <div class="card mb-3" style={{maxWidth: '540px', margin: '10%', marginLeft: '30%'}}>
+            <h1 className="text-center my-3 col mx-3">About Parag Coimbatore</h1>
+            <div class="card mb-3" style={{maxWidth: '540px', margin: '10%', marginLeft: '30%', marginTop: '5%'}}>
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="/images/img-6.jpg" class="img-fluid rounded-start" alt="..." />

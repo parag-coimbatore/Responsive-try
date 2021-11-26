@@ -1,6 +1,6 @@
 video{
     object-fit: cover;
-    width: 90%;
+    width: 80%;
     height: 90%;
     position: relative;
     z-index: -1;
@@ -21,10 +21,14 @@ video{
     font-size: 100px;
 }
 
+.text-styles{
+    font-family: 'Style Script', cursive;
+}
+
 .text-box {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 11%;
+    margin: 10%;
     color: white;
 }

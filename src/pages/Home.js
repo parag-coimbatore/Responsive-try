@@ -4,39 +4,69 @@ import HeroSection from '../components/HeroSection'
 function Home() {
     return (
         <>
-            <h1 className="text-center">Hello Home</h1>
+            <h1 className="text-styles mt-2 text-center">Hello and welcome to the Travel App by Parag Coimbatore</h1>
             <HeroSection />
-            <div className="card-deck">
-                <div className="card mx-5" style={{width: '18rem', display: 'inline-block'}}>
-                    <img className="card-img-top" src="..." alt="Card image cap" />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div className="card-footer ">
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div className="card my-5 mx-5" style={{width: '18rem', display: 'inline-block'}}>
-                    <img className="card-img-top" src="..." alt="Card image cap" />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                    <div className="card-footer">
-                        <small className="text-muted">Last updated 3 mins ago</small>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col mx-3" style={{width: '23rem'}}> 
+                    <div class="card text-center">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title">About our services</h3>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href={"http://localhost:3000/services"} class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-                <div className="card mx-5" style={{width: '18rem', display: 'inline-block'}}>
-                    <img className="card-img-top" src="..." alt="Card image cap" />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
-                    <div className="card-footer">
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                <div class="col mx-3" style={{width: '23rem'}}>
+                    <div class="card text-center">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title">Learn</h3>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href={"http://localhost:3000/services"} class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
+                <div class="col mx-3" style={{width: '23rem'}}>
+                    <div class="card">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title">Card title</h3>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mx-3" style={{width: '23rem'}}> 
+                    <div class="card">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Know about me</h3>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <a href={"http://localhost:3000/about"} class="btn btn-primary">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-3" style={{width: '23rem'}}>
+                    <div class="card">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title">Card title</h3>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-3" style={{width: '23rem'}}>
+                    <div class="card">
+                        <img src="/images/img-8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h3 class="card-title">Card title</h3>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
         </>

@@ -4,12 +4,12 @@ import './HeroSection.css'
 function HeroSection() {
     return (
         <>
-        <div className="hero-container">
+        <div className="hero-container col mx-3">
             
             <video src ="/videos/video-2.mp4" autoPlay loop muted />
             
             <div className="text-box">
-                <h1>Hello</h1>
+                <h1 className="text-styles">Lets explore the world</h1>
             </div>
         </div>
 
