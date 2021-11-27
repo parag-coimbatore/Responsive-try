@@ -6,7 +6,7 @@ function HeroSection() {
         <>
         <div className="hero-container col mx-3">
             
-            <video src ="/videos/video-2.mp4" autoPlay loop muted />
+            <video src ="homepagePath/videos/video-2.mp4" autoPlay loop muted />
             
             <div className="text-box">
                 <h1 className="text-styles">Lets explore the world</h1>

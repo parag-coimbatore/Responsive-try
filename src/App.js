@@ -18,19 +18,16 @@ import Services6 from './services/Services6';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
+
       <Routes>
-        <Route exact path='/' element={<Home />}></Route>
+        <Route exact path='/' element={<Home/>}></Route>
 
         <Route exact path='/about' element={<About />}></Route>
 
         <Route exact path='/services' element={<Services />}></Route>
 
-        <Route exact path='/signup' element={<SignUp />}></Route>
-
-        <Route ></Route>
-
-
+        <Route exact path='/signup' element={<SignUp/>}></Route>
       </Routes>
 
       <Routes>
